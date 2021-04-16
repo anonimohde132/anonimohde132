@@ -27,10 +27,10 @@ def init(ip, port, main):
 		print("SERVIDOR INDISPONIVEL OU PORTA FECHADA!/n")
 
 if len(sys.argv) < 4:
-	print('/n/n')
+	print('          ')
 	print("Modo de Uso:")
 	print("Exe: root@localhost~# python DosHDE.py 192.168.0.1 80")
-	print("/n/n")
+	print("          ")
 	sys.exit(0)
 else:
 	ip = sys.argv[1]
